@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "Japan — Kansai & Mie",
+    "titleJp": "関西・三重の旅",
+    "subtitle": "7 days · 6 nights · May 28 – Jun 3, 2026",
+    "tag": "Private trip guide"
+  },
+  "flights": [
+    { "icon": "ti-plane-departure", "text": "BKK 01:15 → KIX 09:20 · May 28" },
+    { "icon": "ti-plane-arrival", "text": "KIX 10:25 → DMK 14:25 · Jun 3" }
+  ],
+  "hotels": [
+    { "id": "k", "dates": "May 28–30 · 2 nights · Kyoto", "name": "Hotel SUI Kyoto Kiyomizu", "loc": "Higashiyama · steps from Kiyomizudera", "color": "blue" },
+    { "id": "o", "dates": "May 30 – Jun 2 · 3 nights · Osaka", "name": "Hotel Shinpoin Osaka", "loc": "Near Kintetsu Nipponbashi · Namba area", "color": "red" },
+    { "id": "a", "dates": "Jun 2–3 · 1 night · near KIX", "name": "Washington Hotel Kansai Airport", "loc": "Rinku Town · shuttle/train to terminal", "color": "green" }
+  ],
+  "days": [
+    {
+      "id": "d1",
+      "nav": { "num": "1", "label": "May 28\nKyoto" },
+      "heading": { "title": "Day 1 · May 28 · Kyoto arrival", "sub": "KIX → Arashiyama bamboo → Kiyomizudera → Gion evening stroll" },
+      "infoBox": { "type": "info", "icon": "ti-info-circle", "text": "Land 09:20. Budget ~60 min for immigration + luggage. Should clear by ~10:20." },
+      "events": [
+        {
+          "type": "hotel", "time": "09:20", "title": "Land at KIX", "jp": "関西国際空港",
+          "desc": "Clear immigration → collect bags → pick up Suica/ICOCA or confirm rail pass at JR desk in the arrivals hall."
+        },
+        {
+          "type": "transit", "time": "10:30 →", "title": "KIX → Kyoto Station",
+          "desc": "Haruka Limited Express non-stop · departs every ~30 min from Platform 1 · 75 min · covered by JR Pass (¥1,880+¥530 without pass)",
+          "badges": [
+            { "type": "train", "icon": "ti-train", "text": "JR Haruka" },
+            { "type": "time", "text": "75 min" },
+            { "type": "cost", "text": "Rail Pass" }
+          ],
+          "links": [
+            { "href": "https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport,+Osaka&destination=Kyoto+Station,+Kyoto&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" }
+          ]
+        },
+        {
+          "type": "transit", "time": "11:55", "title": "Kyoto Station — store large luggage",
+          "desc": "Coin lockers near Hachijō central exit (B1) · ¥700–900 for large. Or ship direct to Hotel SUI via Yamato Takkyubin (~¥1,500)."
+        },
+        {
+          "type": "transit", "time": "12:15 →", "title": "Kyoto Station → Saga-Arashiyama",
+          "desc": "JR Sagano Line from Platform 33 · 17 min direct",
+          "badges": [
+            { "type": "train", "icon": "ti-train", "text": "JR Sagano Line" },
+            { "type": "time", "text": "17 min" },
+            { "type": "cost", "text": "¥240" }
+          ],
+          "links": [
+            { "href": "https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station,+Kyoto&destination=Saga-Arashiyama+Station,+Kyoto&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" }
+          ]
+        },
+        {
+          "type": "food", "time": "12:40 · lunch", "title": "Lunch at Arashiyama",
+          "desc": "Yoshida-ya (tofu kaiseki) · Shige (soba) · Hakusui-so (matcha set). Eat before the bamboo walk."
+        },
+        {
+          "type": "place", "time": "13:30 · ~90 min", "title": "Arashiyama", "jp": "嵐山",
+          "desc": "Bamboo Grove (free) → Tenryu-ji Garden ¥500 → Togetsukyo Bridge → Kimono Forest near the station."
+        },
+        {
+          "type": "transit", "time": "15:15 →", "title": "Arashiyama → Hotel SUI Kyoto Kiyomizu",
+          "desc": "Bus 11 from Arashiyama Tenryu-ji-mae stop → Kiyomizumichi stop · ~45 min",
+          "badges": [
+            { "type": "bus", "icon": "ti-bus", "text": "Bus 11" },
+            { "type": "time", "text": "~45 min" },
+            { "type": "cost", "text": "¥470" }
+          ],
+          "links": [
+            { "href": "https://www.google.com/maps/dir/?api=1&origin=Arashiyama,+Kyoto&destination=Hotel+SUI+Kyoto+Kiyomizu,+Kyoto&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" }
+          ]
+        },
+        {
+          "type": "hotel", "time": "16:15", "title": "Check in — Hotel SUI Kyoto Kiyomizu",
+          "desc": "Drop bags, freshen up."
+        },
+        {
+          "type": "place", "time": "17:00 · ~75 min", "title": "Kiyomizudera", "jp": "清水寺",
+          "desc": "5 min walk uphill from hotel. Evening light is golden. Entry ¥400. Walk down Ninenzaka & Sannenzaka stone lanes.",
+          "badges": [
+            { "type": "walk", "icon": "ti-walk", "text": "5 min from hotel" },
+            { "type": "cost", "text": "¥400" }
+          ],
+          "links": [
+            { "href": "https://www.google.com/maps/dir/?api=1&origin=Hotel+SUI+Kyoto+Kiyomizu,+Kyoto&destination=Kiyomizudera+Temple,+Kyoto&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" }
+          ]
+        },
+        {
+          "type": "place", "time": "18:30", "title": "Gion — Hanamikoji Street", "jp": "花見小路",
+          "desc": "20 min walk via Ishibei-koji lane. Best geiko/maiko spotting window: 19:00–20:30.",
+          "badges": [
+            { "type": "walk", "icon": "ti-walk", "text": "20 min walk" }
+          ],
+          "links": [
+            { "href": "https://www.google.com/maps/dir/?api=1&origin=Kiyomizudera+Temple,+Kyoto&destination=Hanamikoji+Street,+Gion,+Kyoto&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" }
+          ]
+        },
+        {
+          "type": "food", "time": "19:30 · dinner", "title": "Dinner — Gion Tanto or Katsukura Shijo",
+          "desc": "<strong>Gion Tanto</strong> — Kyoto home cooking, book ahead · <strong>Katsukura</strong> — premium tonkatsu, easier walk-in",
+          "links": [
+            { "href": "https://www.google.com/maps/dir/?api=1&origin=Hanamikoji+Street,+Gion,+Kyoto&destination=Gion+Tanto,+Kyoto&travelmode=walking", "icon": "ti-map-pin", "text": "Gion Tanto" },
+            { "href": "https://www.google.com/maps/dir/?api=1&origin=Hanamikoji+Street,+Gion,+Kyoto&destination=Katsukura+Shijo+Higashinotoin,+Kyoto&travelmode=walking", "icon": "ti-map-pin", "text": "Katsukura" }
+          ]
+        }
+      ],
+      "costs": [
+        { "label": "KIX → Kyoto (Haruka)", "value": "Rail pass" },
+        { "label": "Luggage storage", "value": "~¥800" },
+        { "label": "Kyoto → Arashiyama (JR)", "value": "¥240" },
+        { "label": "Tenryu-ji garden", "value": "¥500" },
+        { "label": "Arashiyama → Hotel (Bus 11)", "value": "¥470" },
+        { "label": "Kiyomizudera entry", "value": "¥400" }
+      ]
+    },
+    {
+      "id": "d2",
+      "nav": { "num": "2", "label": "May 29\nKyoto" },
+      "heading": { "title": "Day 2 · May 29 · Kyoto — Uji loop", "sub": "Walden Woods coffee → Heian Jingu → Okazaki → Uji matcha day → Fushimi Inari" },
+      "events": [
+        {
+          "type": "food", "time": "08:00", "title": "Walden Woods Kyoto ☕",
+          "desc": "750 m walk from hotel · specialty coffee + morning pastries. Opens 08:00.",
+          "badges": [ { "type": "walk", "icon": "ti-walk", "text": "10 min walk" } ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Hotel+SUI+Kyoto+Kiyomizu,+Kyoto&destination=Walden+Woods+Kyoto,+Kyoto&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "transit", "time": "09:00 →", "title": "→ Heian Jingu",
+          "desc": "Walk to Gojo bus stop → Bus 100 or 206 to Heian Jingu-mae · ~20 min",
+          "badges": [
+            { "type": "bus", "icon": "ti-bus", "text": "Bus 100/206" },
+            { "type": "time", "text": "20 min" },
+            { "type": "cost", "text": "¥230" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Walden+Woods+Kyoto,+Kyoto&destination=Heian+Jingu,+Kyoto&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "09:30 · 35 min", "title": "Heian Jingu", "jp": "平安神宮",
+          "desc": "Enormous vermillion torii. Free grounds. Inner garden ¥600 optional — beautiful iris in late May."
+        },
+        {
+          "type": "place", "time": "10:10", "title": "Okazaki Shrine", "jp": "岡崎神社 🐰",
+          "desc": "10 min walk from Heian Jingu. Guardian rabbit statues. Free entry.",
+          "badges": [ { "type": "walk", "icon": "ti-walk", "text": "10 min walk" } ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Heian+Jingu,+Kyoto&destination=Okazaki+Shrine,+Kyoto&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "transit", "time": "10:45 →", "title": "→ Uji (Kintetsu Uji Line)",
+          "desc": "Bus to Kyoto → Kintetsu Kyoto Station → Kintetsu Kyoto Line to Kintetsu-Uji · ~50 min",
+          "badges": [
+            { "type": "bus", "icon": "ti-bus", "text": "Bus + Kintetsu" },
+            { "type": "time", "text": "~50 min" },
+            { "type": "cost", "text": "¥590" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Okazaki+Shrine,+Kyoto&destination=Kintetsu-Uji+Station,+Uji,+Kyoto&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "food", "time": "11:50 · lunch", "title": "Fukujuen Uji", "jp": "福寿園",
+          "desc": "Tea factory tour + matcha tasting + lunch. Book the factory tour slot online.",
+          "box": { "type": "tip", "icon": "ti-star", "text": "Friend recommends: \"แนะนำ Fukujuen\" — authentic Uji tea from source." },
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Kintetsu-Uji+Station,+Uji,+Kyoto&destination=Fukujuen+Uji+Tea+Studio,+Uji,+Kyoto&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "13:00 · 45 min", "title": "Byōdo-in", "jp": "平等院",
+          "desc": "UNESCO World Heritage. The ¥10 coin building. Entry ¥700. Book timed Phoenix Hall interior online.",
+          "badges": [ { "type": "cost", "text": "¥700" } ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Fukujuen+Uji+Tea+Studio,+Uji,+Kyoto&destination=Byodoin+Temple,+Uji,+Kyoto&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "food", "time": "14:00", "title": "Tsubameya", "jp": "つばめや",
+          "desc": "Famous warabi mochi. Short walk from Byodo-in.",
+          "box": { "type": "tip", "icon": "ti-star", "text": "Friend: \"อร่อย Tsubameya\"" }
+        },
+        {
+          "type": "place", "time": "14:30 · 30 min", "title": "Uji Shrine", "jp": "宇治神社 🐰",
+          "desc": "Looking-back rabbit guardian shrine. Free entry.",
+          "box": { "type": "warn", "icon": "ti-alert-triangle", "text": "Friend: \"บันไดสูงมาก เตรียมใจให้ดี\" — very steep stone stairs." },
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Byodoin+Temple,+Uji,+Kyoto&destination=Uji+Shrine,+Uji,+Kyoto&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "transit", "time": "15:15 →", "title": "→ Fushimi Inari (JR Nara Line)",
+          "desc": "From JR Uji Station (5 min walk south from Kintetsu-Uji) → JR Nara Line to Inari Station · 18 min",
+          "badges": [
+            { "type": "train", "icon": "ti-train", "text": "JR Nara Line" },
+            { "type": "time", "text": "18 min" },
+            { "type": "cost", "text": "¥240" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Uji+Station,+Uji,+Kyoto&destination=Fushimi+Inari-Taisha,+Kyoto&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "15:45 · ~1.5 hrs", "title": "Fushimi Inari Taisha", "jp": "伏見稲荷大社",
+          "desc": "Free. Walk the lower torii tunnels to the first plateau (~40 min loop). Late afternoon golden light through the orange gates. Skip the full 4-hr summit today."
+        },
+        {
+          "type": "transit", "time": "17:20 →", "title": "→ Hotel SUI",
+          "desc": "JR to Kyoto Station (10 min) → Bus 207 to Kiyomizumichi · ~45 min total",
+          "badges": [
+            { "type": "train", "icon": "ti-train", "text": "JR + Bus 207" },
+            { "type": "time", "text": "~45 min" },
+            { "type": "cost", "text": "¥470" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Fushimi+Inari-Taisha,+Kyoto&destination=Hotel+SUI+Kyoto+Kiyomizu,+Kyoto&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        }
+      ],
+      "costs": [
+        { "label": "Hotel → Heian Jingu (bus)", "value": "¥230" },
+        { "label": "Okazaki → Uji (bus + Kintetsu)", "value": "¥590" },
+        { "label": "Byodo-in entry", "value": "¥700" },
+        { "label": "Uji → Fushimi Inari (JR)", "value": "¥240" },
+        { "label": "Fushimi Inari → Hotel (JR + bus)", "value": "¥470" }
+      ]
+    },
+    {
+      "id": "d3",
+      "nav": { "num": "3", "label": "May 30\nIne→OSK" },
+      "heading": { "title": "Day 3 · May 30 · Ine tour → Osaka", "sub": "Pre-booked Ine no Funaya tour (all day) · Check in Hotel Shinpoin tonight" },
+      "infoBox": { "type": "tip", "icon": "ti-ship", "text": "Ine tour is pre-booked. Steps below = bookend transit only. Confirm pickup & drop-off with your operator." },
+      "events": [
+        {
+          "type": "hotel", "time": "~07:30", "title": "Check out — Hotel SUI Kyoto Kiyomizu",
+          "desc": "Full checkout — moving to Osaka. Ship bags to Hotel Shinpoin via Yamato Takkyubin (~¥1,500) or use station lockers."
+        },
+        {
+          "type": "transit", "time": "~08:00 →", "title": "→ Kyoto Station / Tour Pickup",
+          "badges": [
+            { "type": "bus", "icon": "ti-bus", "text": "Bus or subway" },
+            { "type": "cost", "text": "¥220" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Hotel+SUI+Kyoto+Kiyomizu,+Kyoto&destination=Kyoto+Station,+Kyoto&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "~09:00 — ~18:30 · ALL DAY", "title": "Ine no Funaya day tour", "jp": "伊根の舟屋",
+          "desc": "~2.5 hr bus north to Ine fishing village · boat cruise of the bay · traditional boathouses on the sea · local seafood lunch · return bus to Osaka area.",
+          "box": { "type": "tip", "icon": "ti-star", "text": "Friend: Ine is scenic and worthwhile — particularly beautiful on a clear day." }
+        },
+        {
+          "type": "transit", "time": "~19:30 →", "title": "Kintetsu Nipponbashi → Hotel Shinpoin",
+          "badges": [
+            { "type": "train", "icon": "ti-train", "text": "Kintetsu" },
+            { "type": "cost", "text": "¥190" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Kintetsu+Nipponbashi+Station,+Osaka&destination=Hotel+Shinpoin+Osaka&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "hotel", "time": "~20:00", "title": "Check in — Hotel Shinpoin Osaka",
+          "desc": "Your Osaka base for 3 nights. Dotonbori is 10 min walk for a late snack."
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "nav": { "num": "4", "label": "May 31\nKobe" },
+      "heading": { "title": "Day 4 · May 31 (Sat) · Kobe day trip", "sub": "Kitano mansions → Kobe beef → Herb Gardens gondola → Nankinmachi → Ichiren" },
+      "infoBox": { "type": "warn", "icon": "ti-calendar", "text": "Saturday — book Kokubu Steak reservation well in advance!" },
+      "events": [
+        {
+          "type": "transit", "time": "07:45 →", "title": "Hotel Shinpoin → Kobe Sannomiya",
+          "desc": "Subway Midosuji to Umeda (¥230) → Hankyu Kobe Main Line to Sannomiya (¥330) · ~45 min",
+          "badges": [
+            { "type": "train", "icon": "ti-train", "text": "Subway + Hankyu" },
+            { "type": "time", "text": "~45 min" },
+            { "type": "cost", "text": "¥560" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Hotel+Shinpoin+Osaka&destination=Kobe-Sannomiya+Station,+Kobe&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "09:00 · ~1.5 hrs", "title": "Kitano Ijinkan", "jp": "北野異人館",
+          "desc": "Meiji-era Western mansions. 15 min uphill walk from Sannomiya. Combo ticket ~¥1,000.",
+          "badges": [
+            { "type": "walk", "icon": "ti-walk", "text": "15 min uphill" },
+            { "type": "cost", "text": "~¥1,000" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Sannomiya+Station,+Kobe&destination=Kitano+Ijinkan,+Kobe&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "food", "time": "11:30 · lunch", "title": "Kokubu Steak", "jp": "国分",
+          "desc": "Walk ~15 min downhill from Kitano. Opens ~11:30. Teppanyaki Kobe beef. Book reservation ahead.",
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Kitano+Ijinkan,+Kobe&destination=Kokubu+Steak,+Kobe&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "13:45 · ~1.5 hrs", "title": "Kobe Nunobiki Herb Gardens", "jp": "布引ハーブ園",
+          "desc": "Walk ~15 min north to Shin-Kobe ropeway. ¥2,000 return gondola. Panoramic harbor views. Lavender & roses in late May.",
+          "badges": [ { "type": "cost", "text": "¥2,000 return" } ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Sannomiya+Station,+Kobe&destination=Kobe+Nunobiki+Herb+Gardens,+Kobe&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "15:30", "title": "Nankinmachi", "jp": "南京町",
+          "desc": "20 min walk south. Colorful street stalls. Dumplings and sesame balls are good.",
+          "box": { "type": "warn", "icon": "ti-alert-triangle", "text": "Friend: \"เนื้อไม่อร่อย\" — skip the meat/beef stalls here." },
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Kobe+Nunobiki+Herb+Gardens,+Kobe&destination=Nankinmachi,+Kobe&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "food", "time": "17:00 · dinner", "title": "Ichiren", "jp": "一蓮",
+          "desc": "Near Sannomiya/Motomachi. Friend's top Kobe pick.",
+          "box": { "type": "tip", "icon": "ti-star", "text": "Friend: \"อร่อยมาก ข้าวผัด + ราเมง\" ⭐⭐" },
+          "links": [
+            { "href": "https://www.google.com/maps/dir/?api=1&origin=Nankinmachi,+Kobe&destination=Ichiren,+Kobe&travelmode=walking", "icon": "ti-map-pin", "text": "Ichiren" },
+            { "href": "https://www.google.com/maps/dir/?api=1&origin=Nankinmachi,+Kobe&destination=Isuzu+Bakery+Motomachi,+Kobe&travelmode=walking", "icon": "ti-map-pin", "text": "Isuzu Bakery (alt.)" }
+          ]
+        },
+        {
+          "type": "transit", "time": "18:00 →", "title": "Sannomiya → Hotel Shinpoin Osaka",
+          "desc": "Hankyu to Umeda (¥330, 27 min) → Subway to Nipponbashi (¥230) · ~55 min total",
+          "badges": [
+            { "type": "train", "icon": "ti-train", "text": "Hankyu + Subway" },
+            { "type": "time", "text": "~55 min" },
+            { "type": "cost", "text": "¥560" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Sannomiya+Station,+Kobe&destination=Hotel+Shinpoin+Osaka&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "nav": { "num": "5", "label": "Jun 1\nIse·Mie" },
+      "heading": { "title": "Day 5 · Jun 1 (Sun) · Ise · Mie", "sub": "Kintetsu express → Geku → Naiku → Okage Yokocho street food → return" },
+      "infoBox": { "type": "warn", "icon": "ti-calendar", "text": "Sunday — Ise Jingu is packed. Arrive Naiku before 10:30. Book Kintetsu Ltd. Express seats in advance." },
+      "events": [
+        {
+          "type": "transit", "time": "07:20", "title": "Hotel Shinpoin → Kintetsu Osaka Namba Station",
+          "desc": "8–10 min walk from hotel.",
+          "badges": [ { "type": "walk", "icon": "ti-walk", "text": "~8 min walk" } ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Hotel+Shinpoin+Osaka&destination=Kintetsu+Osaka+Namba+Station&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "transit", "time": "07:40 →", "title": "Kintetsu Osaka Namba → Ujiyamada",
+          "desc": "Kintetsu Limited Express (Hinotori premium) · ~1h 45min direct. Book reserved seat ahead. ~¥3,200 each way incl. surcharge.",
+          "badges": [
+            { "type": "train", "icon": "ti-train", "text": "Kintetsu Ltd. Express" },
+            { "type": "time", "text": "1h 45min" },
+            { "type": "cost", "text": "~¥3,200" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Kintetsu+Osaka+Namba+Station&destination=Ujiyamada+Station,+Ise,+Mie&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "09:30 · 30 min", "title": "Geku — Ise Outer Shrine", "jp": "外宮",
+          "desc": "5 min walk from Ujiyamada. Free. Dedicated to food goddess Toyouke-Omikami. Serene cedar forest.",
+          "badges": [
+            { "type": "walk", "icon": "ti-walk", "text": "5 min from station" },
+            { "type": "cost", "text": "Free" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Ujiyamada+Station,+Ise,+Mie&destination=Geku+Ise+Grand+Shrine,+Ise,+Mie&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "transit", "time": "10:20 →", "title": "Geku → Naiku via CAN-BUS",
+          "desc": "CAN-BUS from Geku bus stop to Naiku (内宮) · 15 min · ¥430 round trip (recommended)",
+          "badges": [
+            { "type": "bus", "icon": "ti-bus", "text": "CAN-BUS" },
+            { "type": "time", "text": "15 min" },
+            { "type": "cost", "text": "¥430 RT" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Geku+Ise+Grand+Shrine,+Ise,+Mie&destination=Naiku+Ise+Grand+Shrine,+Ise,+Mie&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "food", "time": "10:45 · eat first", "title": "Okage Yokocho", "jp": "おかげ横丁",
+          "desc": "Eat before entering Naiku (no food inside). Must-try: Akafuku mochi · Ise udon · Tekone sushi. Walk the Oharaimachi-dori shopping street.",
+          "box": { "type": "tip", "icon": "ti-star", "text": "Akafuku is the iconic Ise souvenir. Buy fresh + one to take home (lasts 2 days). Get before noon on Sunday." }
+        },
+        {
+          "type": "place", "time": "12:00 · 45–60 min", "title": "Naiku — Ise Inner Shrine", "jp": "内宮",
+          "desc": "Japan's most sacred shrine. Home of sun goddess Amaterasu. Free entry. Cross the Uji Bridge, walk ancient cedar paths, bow at the outer sanctuary. No photography past the first torii.",
+          "badges": [ { "type": "cost", "text": "Free" } ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Okage+Yokocho,+Ise,+Mie&destination=Naiku+Ise+Grand+Shrine,+Ise,+Mie&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "transit", "time": "15:00 →", "title": "Ujiyamada → Kintetsu Osaka Namba",
+          "desc": "Bus back to Ujiyamada → Kintetsu Ltd. Express return. Book return seat when booking outbound.",
+          "badges": [
+            { "type": "train", "icon": "ti-train", "text": "Kintetsu Ltd. Express" },
+            { "type": "time", "text": "1h 45min" },
+            { "type": "cost", "text": "~¥3,200" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Ujiyamada+Station,+Ise,+Mie&destination=Kintetsu+Osaka+Namba+Station&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "food", "time": "~18:00 · evening Osaka", "title": "Evening dinner options",
+          "desc": "<strong>Kizu Market</strong> — Friend: \"แนะนำตลาดคิซุแทน\" (better than Kuromon)<br /><strong>Toyo</strong> — wagyu legend, join queue from ~17:30<br /><strong>KK Curry</strong> — Friend: \"อร่อยมาก, อย่าไป rush hour\""
+        }
+      ],
+      "costs": [
+        { "label": "Kintetsu express (each way)", "value": "~¥3,200" },
+        { "label": "CAN-BUS Geku ↔ Naiku (RT)", "value": "¥430" },
+        { "label": "Both shrines", "value": "Free" },
+        { "label": "Transport total", "value": "~¥6,830", "bold": true }
+      ]
+    },
+    {
+      "id": "d6",
+      "nav": { "num": "6", "label": "Jun 2\nOsaka" },
+      "heading": { "title": "Day 6 · Jun 2 (Mon) · Osaka — full day", "sub": "Kizu Market → vintage shopping → Dotonbori → Umeda Kitte → move to KIX hotel" },
+      "infoBox": { "type": "info", "icon": "ti-info-circle", "text": "Last full day. Tonight move to Washington Hotel Kansai Airport for the 10:25 departure." },
+      "events": [
+        {
+          "type": "food", "time": "08:00", "title": "Kizu Market", "jp": "木津卸売市場",
+          "desc": "Best before 09:30. Wholesale market open to public. Fresh seafood, tamagoyaki, pickles. Standing/walking food.",
+          "box": { "type": "tip", "icon": "ti-star", "text": "Friend: \"แนะนำตลาดคิซุแทน\" — better than Kuromon. Cash only." },
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Hotel+Shinpoin+Osaka&destination=Kizu+Wholesale+Market,+Osaka&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "food", "time": "09:30", "title": "Rikuro Ojisan no Mise", "jp": "りくろーおじさん",
+          "desc": "Osaka's famous jiggly cheesecake. Namba flagship bakes every 15 min. Watch through the glass, eat warm.",
+          "box": { "type": "tip", "icon": "ti-star", "text": "Friend: \"อร่อย, มีขายในชานชลา shinkansen\" — also airside at KIX departure if you miss it here." },
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Kizu+Wholesale+Market,+Osaka&destination=Rikuro+Ojisan+Namba,+Osaka&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "10:30 · ~1–2 hrs", "title": "Orange Street", "jp": "オレンジストリート",
+          "desc": "Minami-horie area — best vintage/second-hand fashion street in Osaka. Mix of archive, designer resale, and cheap thrift.",
+          "box": { "type": "tip", "icon": "ti-star", "text": "Friend: \"Orange street ช้อปเสื้อมือสอง\"" },
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Rikuro+Ojisan+Namba,+Osaka&destination=Orange+Street,+Minami-Horie,+Osaka&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "12:30", "title": "Shinsaibashi + Dotonbori", "jp": "道頓堀",
+          "desc": "Japan's longest covered shopping arcade → Dotonbori canal (Glico sign, Kani Doraku crab, neon riverfront)."
+        },
+        {
+          "type": "food", "time": "13:30 · lunch", "title": "Lunch options",
+          "desc": "<strong>KK Curry</strong> — Friend: \"อร่อยมาก, อย่าไป rush hour\" — go after 13:30<br /><strong>Takoyaki</strong> — Wanaka or Aizuya at Dotonbori"
+        },
+        {
+          "type": "place", "time": "15:00", "title": "Namba Yasaka Jinja", "jp": "難波八阪神社",
+          "desc": "10 min walk from Dotonbori. Giant lion-head Emaden stage — one of Osaka's most bizarre and photogenic spots. Free.",
+          "box": { "type": "tip", "icon": "ti-star", "text": "Friend: \"Yasaka Jinja วัดหน้ายักษ์\" — the giant-faced shrine. A must-see Osaka oddity." },
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Dotonbori,+Osaka&destination=Namba+Yasaka+Shrine,+Osaka&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "16:00 · ~1.5 hrs", "title": "Umeda — Kitte Osaka", "jp": "キッテ大阪",
+          "desc": "Subway to Umeda (¥230, 7 min). New Kitte Osaka mall near JR Osaka Station — curated Kansai regional products and food. Better than airport souvenir shops.",
+          "box": { "type": "tip", "icon": "ti-star", "text": "Friend: \"ห้าง Kitte รวม OTOP kansai\" — excellent curated regional goods." },
+          "badges": [
+            { "type": "train", "icon": "ti-train", "text": "Subway to Umeda" },
+            { "type": "cost", "text": "¥230" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Namba+Yasaka+Shrine,+Osaka&destination=KITTE+Osaka,+Osaka&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "hotel", "time": "18:00", "title": "Return to Hotel Shinpoin — pack & check out",
+          "desc": "Final pack. Check out by ~19:00. Tonight moves to KIX Washington Hotel for early flight."
+        },
+        {
+          "type": "transit", "time": "19:30 →", "title": "Hotel Shinpoin → Washington Hotel Kansai Airport",
+          "desc": "Subway Midosuji to Namba → JR Kansai Airport Rapid to KIX (¥1,080, 65 min) → free hotel shuttle OR walk from Rinku Town station",
+          "badges": [
+            { "type": "train", "icon": "ti-train", "text": "Subway + JR Airport Rapid" },
+            { "type": "time", "text": "~80 min" },
+            { "type": "cost", "text": "~¥1,080" }
+          ],
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Hotel+Shinpoin+Osaka&destination=Washington+Hotel+Kansai+Airport,+Izumisano,+Osaka&travelmode=transit", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "hotel", "time": "21:00", "title": "Check in — Washington Hotel Kansai Airport",
+          "desc": "Early night. Flight 10:25. Be at KIX check-in counter by 08:00–08:30."
+        }
+      ]
+    },
+    {
+      "id": "dep",
+      "nav": { "icon": "ti-plane", "label": "Jun 3\nDep." },
+      "heading": { "title": "Departure · Jun 3 · KIX → Bangkok", "sub": "Washington Hotel → Kansai Airport → DMK 14:25" },
+      "events": [
+        {
+          "type": "hotel", "time": "06:30", "title": "Wake up & check out",
+          "desc": "Pack remaining omiyage. Free hotel shuttle or 5–10 min covered walk to KIX terminal."
+        },
+        {
+          "type": "transit", "time": "07:30", "title": "Washington Hotel → KIX Terminal",
+          "links": [ { "href": "https://www.google.com/maps/dir/?api=1&origin=Washington+Hotel+Kansai+Airport&destination=Kansai+International+Airport,+Osaka&travelmode=walking", "icon": "ti-map-pin", "text": "Maps" } ]
+        },
+        {
+          "type": "place", "time": "08:00", "title": "KIX — check in, immigration, security",
+          "desc": "International departures 4F. Allow 60–75 min total. Duty-free and Rikuro Ojisan are past security airside."
+        },
+        {
+          "type": "food", "time": "09:30 · airside", "title": "Last buy: Rikuro cheesecake airside",
+          "desc": "Friend confirmed it's sold airside on the departure concourse. Perfect last grab."
+        },
+        {
+          "type": "hotel", "time": "10:25 → 14:25", "title": "KIX → DMK (Bangkok Don Mueang)",
+          "desc": "Boarding ~10:00. Flight ~5h 30min. Arrive DMK 14:25 local time.",
+          "badges": [ { "type": "train", "icon": "ti-plane", "text": "KIX 10:25 → DMK 14:25" } ]
+        }
+      ],
+      "tips": [
+        { "type": "tip", "icon": "ti-gift", "text": "<strong>Omiyage checklist:</strong> Akafuku mochi (Ise) · Rikuro cheesecake (airside) · Yatsuhashi (Kyoto) · Kitte Osaka regional goods · Matcha from Fukujuen (Uji)" },
+        { "type": "tip", "icon": "ti-star", "text": "<strong>Uji:</strong> Fukujuen ⭐ · Tsubameya warabi mochi ⭐ · Uji Shrine steep stairs ⚠️ · JR bridge view > Kintetsu side" },
+        { "type": "tip", "icon": "ti-star", "text": "<strong>Kobe:</strong> Ichiren fried rice + ramen ⭐⭐ · Kitano good · Nankinmachi meat 👎 · Cup Noodles Museum = meh" },
+        { "type": "tip", "icon": "ti-star", "text": "<strong>Osaka:</strong> Namba Yasaka Jinja (giant lion) · Kizu Market > Kuromon · Toyo wagyu (long queue) · KK Curry (avoid rush hour) · Orange Street vintage · Kitte Osaka OTOP · Rikuro cheesecake" },
+        { "type": "warn", "icon": "ti-alert-triangle", "text": "Compare rail pass cost vs paying per ride. Haruka KIX express alone = ~¥2,410 each way without pass." }
+      ]
+    }
+  ]
+}
